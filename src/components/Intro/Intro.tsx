@@ -10,7 +10,7 @@ import React from "react";
 
 const Intro = () => {
 	return (
-		<div className=" h-full flex flex-col justify-around my-10">
+		<div className=" md:h-full md:flex md:flex-col md:justify-around md:my-10">
 			<div className="flex flex-col justify-around h-1/4 ">
 				<div className="">
 					<h1 className="text-5xl font-bold">Stefan Jovanovic</h1>
