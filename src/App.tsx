@@ -1,10 +1,12 @@
 import "./App.css";
+import Details from "./components/Detailed-Info/Details";
 import Intro from "./components/Intro/Intro";
 
 function App() {
 	return (
-		<div className="w-full h-[100dvh] m-5 flex md:items-center md:justify-center">
+		<div className="max-w-screen-xl min-h-screen p-5 flex flex-col justify-between lg:flex-row lg:items-center lg:justify-center">
 			<Intro />
+			<Details/>
 		</div>
 	);
 }

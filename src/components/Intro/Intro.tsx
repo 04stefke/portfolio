@@ -7,16 +7,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
 const Intro = () => {
 	return (
-		<div className=" md:h-full md:flex md:flex-col md:justify-around md:my-10">
+		<div className=" lg:flex-1 h-full flex flex-col lg:justify-around lg:my-10">
 			<div className="flex flex-col justify-around h-1/4 ">
 				<div className="">
 					<h1 className="text-5xl font-bold">Stefan Jovanovic</h1>
 					<h3 className="text-2xl font-bold">Jr Frontend Developer</h3>
 				</div>
-				<div>
+				<div className="hidden lg:block">
 					<p className="uppercase">ABOUT</p>
 					<p className="uppercase">Experiences</p>
 					<p className="uppercase">Projects</p>
