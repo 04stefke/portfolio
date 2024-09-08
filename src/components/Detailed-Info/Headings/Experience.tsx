@@ -2,27 +2,29 @@ import React from "react";
 
 const Experience = () => {
 	return (
-		<div className=" flex flex-col gap-10">
+		<div className=" flex flex-col gap-10 w-full">
 			<h1 className="text-3xl font-bold">Experience</h1>
-			<div className="flex flex-col gap-2">
-				<p>07/2023 - 08/2024</p>
-				<h2 className="text-xl font-bold">
-					Weboratory ~ Jr Front-End Developer
-				</h2>
-				<p>
-					Manipulating DOM for simple features involving Vanilla JS and CSS,
-					such as modifying labels and visual elements. Developing React
-					components from scratch to more complex features, such as replacing
-					dropdown menus to grid layouts. Using Optimizely for deploying and
-					managing the A/B tests. Analysing test results based on various
-					metrics including the number of visitors, bounce rate, and total
-					conversion rates to determine the most effective options.
-				</p>
-				<div className="flex  items-center gap-5">
-					<p className="border rounded-full py-1 px-2">JavaScript</p>
-					<p className="border rounded-full py-1 px-2">React</p>
-					<p className="border rounded-full py-1 px-2">Html</p>
-					<p className="border rounded-full py-1 px-2">CSS</p>
+			<div className="flex flex-col sm:flex-row sm:items-center ">
+				<p className="">2023-2024</p>
+				<div className="flex flex-col gap-2">
+					<h2 className="text-xl font-bold">
+						Weboratory ~ Jr Front-End Developer
+					</h2>
+					<p>
+						Manipulating DOM for simple features involving Vanilla JS and CSS,
+						such as modifying labels and visual elements. Developing React
+						components from scratch to more complex features, such as replacing
+						dropdown menus to grid layouts. Using Optimizely for deploying and
+						managing the A/B tests. Analysing test results based on various
+						metrics including the number of visitors, bounce rate, and total
+						conversion rates to determine the most effective options.
+					</p>
+					<div className="flex  items-center gap-5">
+						<p className="border rounded-full py-1 px-2">JavaScript</p>
+						<p className="border rounded-full py-1 px-2">React</p>
+						<p className="border rounded-full py-1 px-2">Html</p>
+						<p className="border rounded-full py-1 px-2">CSS</p>
+					</div>
 				</div>
 			</div>
 			<div className="flex flex-col gap-2">
@@ -41,8 +43,7 @@ const Experience = () => {
 					<p className="border rounded-full py-1 px-2">Housekeeping</p>
 					<p className="border rounded-full py-1 px-2">Bookings</p>
 					<p className="border rounded-full py-1 px-2">Troubleshooting</p>
-          <p className="border rounded-full py-1 px-2"></p>
-
+					<p className="border rounded-full py-1 px-2"></p>
 				</div>
 			</div>
 		</div>
