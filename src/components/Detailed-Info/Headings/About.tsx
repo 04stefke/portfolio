@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
 	return (
 		<div className="flex flex-col gap-5">
-			<h1 className="text-3xl font-bold">About</h1>
+			<h1 className="text-2xl font-bold">About</h1>
 			<p className="text-lg">
 				Dedicated 20-year-old engineer passionate about translating designs into
 				dynamic user interfaces. With a robust skill set in HTML5, CSS3, SASS,
