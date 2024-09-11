@@ -4,7 +4,7 @@ import Intro from "./components/Intro/Intro";
 
 function App() {
 	return (
-		<div className="max-w-screen-xl min-h-screen p-5 flex flex-col justify-between lg:flex-row lg:items-center lg:justify-center">
+		<div className="max-w-screen-xl min-h-screen p-5 flex gap-20 flex-col justify-between lg:flex-row lg:items-center lg:justify-center">
 			<Intro />
 			<Details/>
 		</div>
