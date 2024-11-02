@@ -4,12 +4,12 @@ import Intro from "./components/Intro/Intro";
 
 function App() {
 	return (
-		<div className=" max-w-screen-xl min-h-screen m-auto flex flex-col lg:flex-row lg:items-center">
+		<div className=" max-w-screen-xl min-h-screen m-auto flex flex-col lg:flex-row lg:items-center px-14 lg;px-0 gap-20 lg:gap-0">
 
 			<div className="w-full lg:w-1/2">
 				<Intro />
 			</div>
-			<div className="w-full overflow-auto lg:w-1/2 h-screen ">
+			<div className="w-full lg:overflow-auto lg:w-1/2 h-screen ">
 				<Details />
 			</div>
 		</div>
