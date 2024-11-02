@@ -39,7 +39,7 @@ const Experience = () => {
 						technical support, managing bookings, and troubleshooting electronic
 						devices, covering both software and hardware aspects.
 					</p>
-					<div className="flex  items-center gap-5">
+					<div className="flex  items-center gap-5 flex-wrap">
 						<p className="border rounded-full py-1 px-2">Hospitality</p>
 						<p className="border rounded-full py-1 px-2">Housekeeping</p>
 						<p className="border rounded-full py-1 px-2">Bookings</p>

@@ -9,8 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Intro = () => {
 	return (
-		<div className=" lg:flex-1 h-full flex flex-col lg:justify-around lg:my-10">
-			<div className="flex flex-col justify-around h-1/4 ">
+		<div className="flex flex-col h-full lg:h-auto">
+			<div className="flex flex-col justify-around items-start py-4 px-6">
 				<div className="">
 					<h1 className="text-5xl font-bold">Stefan Jovanovic</h1>
 					<h3 className="text-2xl font-bold">Jr Frontend Developer</h3>
