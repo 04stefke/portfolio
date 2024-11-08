@@ -4,7 +4,7 @@ import Intro from "./components/Intro/Intro";
 
 function App() {
 	return (
-		<div className=" max-w-screen-xl min-h-screen m-auto flex flex-col lg:flex-row lg:items-center px-14 lg;px-0 gap-20 lg:gap-0">
+		<div className=" max-w-screen-xl min-h-screen mx-auto flex flex-col lg:flex-row lg:items-center px-14 lg:px-0 gap-20 lg:gap-0">
 
 			<div className="w-full lg:w-1/2">
 				<Intro />
