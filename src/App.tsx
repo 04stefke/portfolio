@@ -9,7 +9,7 @@ function App() {
 			<div className="w-full lg:w-1/2">
 				<Intro />
 			</div>
-			<div className="w-full lg:overflow-auto lg:w-1/2 h-screen ">
+			<div className="w-full lg:overflow-auto lg:w-1/2 h-screen scrollbar-hidden ">
 				<Details />
 			</div>
 		</div>

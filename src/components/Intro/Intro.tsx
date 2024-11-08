@@ -21,7 +21,7 @@ const Intro = () => {
 					<p className="uppercase">Projects</p>
 				</div>
 			</div>
-			<div className="flex gap-2 items-center justify-start text-2xl only:justify-end">
+			<div className="flex gap-5 items-center justify-start text-2xl only:justify-end">
 				<a href="https://github.com/04stefke">
 					<FontAwesomeIcon icon={faGithub} />
 				</a>
