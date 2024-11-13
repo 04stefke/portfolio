@@ -3,7 +3,10 @@ import React from "react";
 const Experience = () => {
 	return (
 		<div className=" flex flex-col gap-10 w-full">
-			<div className="lg:hover:bg-hoverBg lg:cursor-pointer px-1 py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full">
+			<a
+				className="lg:hover:bg-hoverBg lg:cursor-pointer px-1 py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full"
+				href="https://find-and-update.company-information.service.gov.uk/company/12344834"
+			>
 				<p>2023-2024</p>
 				<div className="flex flex-col gap-2 w-3/4">
 					<h2 className="text-xl font-bold text-fontColor">
@@ -19,14 +22,25 @@ const Experience = () => {
 						conversion rates to determine the most effective options.
 					</p>
 					<div className="flex  items-center gap-5">
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">JavaScript</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">React</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Html</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">CSS</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							JavaScript
+						</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							React
+						</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							Html
+						</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							CSS
+						</p>
 					</div>
 				</div>
-			</div>
-			<div className="lg:hover:bg-hoverBg px-1 lg:cursor-pointer py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full">
+			</a>
+			<a
+				className="lg:hover:bg-hoverBg px-1 lg:cursor-pointer py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full"
+				href="https://www.montiesbnb.co.uk/"
+			>
 				<p>2019 - 2023</p>
 				<div className="flex flex-col gap-2 w-3/4">
 					<h2 className="text-xl font-bold text-fontColor">
@@ -39,13 +53,21 @@ const Experience = () => {
 						devices, covering both software and hardware aspects.
 					</p>
 					<div className="flex  items-center gap-5 flex-wrap">
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Hospitality</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Housekeeping</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Bookings</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Troubleshooting</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							Hospitality
+						</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							Housekeeping
+						</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							Bookings
+						</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+							Troubleshooting
+						</p>
 					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	);
 };
