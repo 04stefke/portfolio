@@ -3,7 +3,6 @@ import React from "react";
 const Experience = () => {
 	return (
 		<div className=" flex flex-col gap-10 w-full">
-			<h1 className="text-2xl font-bold">Experience</h1>
 			<div className="lg:hover:hover-bg px-1 py-2 lg:cursor-pointer  rounded-lg  flex flex-col justify-between sm:flex-row sm:items-center w-full">
 				<p>2023-2024</p>
 				<div className="flex flex-col gap-2 w-3/4">
