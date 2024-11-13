@@ -3,10 +3,10 @@ import React from "react";
 const Experience = () => {
 	return (
 		<div className=" flex flex-col gap-10 w-full">
-			<div className="lg:hover:hover-bg px-1 py-2 lg:cursor-pointer  rounded-lg  flex flex-col justify-between sm:flex-row sm:items-center w-full">
+			<div className="lg:hover:bg-hoverBg lg:cursor-pointer px-1 py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full">
 				<p>2023-2024</p>
 				<div className="flex flex-col gap-2 w-3/4">
-					<h2 className="text-xl font-bold">
+					<h2 className="text-xl font-bold text-fontColor">
 						Weboratory ~ Jr Front-End Developer
 					</h2>
 					<p>
@@ -26,10 +26,10 @@ const Experience = () => {
 					</div>
 				</div>
 			</div>
-			<div className="lg:hover:bg-slate-400 px-1 lg:cursor-pointer py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full">
+			<div className="lg:hover:bg-hoverBg px-1 lg:cursor-pointer py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full">
 				<p>2019 - 2023</p>
 				<div className="flex flex-col gap-2 w-3/4">
-					<h2 className="text-xl font-bold">
+					<h2 className="text-xl font-bold text-fontColor">
 						Monties Cafe and B&B ~ Administrator
 					</h2>
 					<p>
@@ -39,11 +39,10 @@ const Experience = () => {
 						devices, covering both software and hardware aspects.
 					</p>
 					<div className="flex  items-center gap-5 flex-wrap">
-						<p className="border rounded-full py-1 px-2">Hospitality</p>
-						<p className="border rounded-full py-1 px-2">Housekeeping</p>
-						<p className="border rounded-full py-1 px-2">Bookings</p>
-						<p className="border rounded-full py-1 px-2">Troubleshooting</p>
-						<p className="border rounded-full py-1 px-2"></p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Hospitality</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Housekeeping</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Bookings</p>
+						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">Troubleshooting</p>
 					</div>
 				</div>
 			</div>
