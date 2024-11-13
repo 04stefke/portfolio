@@ -15,10 +15,10 @@ const Intro = () => {
 					<h1 className="text-5xl font-bold text-fontColor">Stefan Jovanovic</h1>
 					<h3 className="text-2xl font-bold text-lighterFontColor">Jr Frontend Developer</h3>
 				</div>
-				<div className="hidden lg:flex flex-col gap-5">
-					<p className="uppercase">ABOUT</p>
-					<p className="uppercase">Experiences</p>
-					<p className="uppercase">Projects</p>
+				<div className="hidden lg:flex flex-col gap-3">
+					<p className="uppercase font-bold">ABOUT</p>
+					<p className="uppercase font-bold">Experiences</p>
+					<p className="uppercase font-bold">Projects</p>
 				</div>
 			</div>
 			<div className="flex gap-5 items-center justify-start text-2xl only:justify-end">
