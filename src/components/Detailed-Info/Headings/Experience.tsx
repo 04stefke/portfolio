@@ -6,6 +6,7 @@ const Experience = () => {
 			<a
 				className="lg:hover:bg-hoverBg lg:cursor-pointer px-1 py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full"
 				href="https://find-and-update.company-information.service.gov.uk/company/12344834"
+				target="_blank"
 			>
 				<p>2023-2024</p>
 				<div className="flex flex-col gap-2 w-3/4">
@@ -40,6 +41,7 @@ const Experience = () => {
 			<a
 				className="lg:hover:bg-hoverBg px-1 lg:cursor-pointer py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full"
 				href="https://www.montiesbnb.co.uk/"
+				target="_blank"
 			>
 				<p>2019 - 2023</p>
 				<div className="flex flex-col gap-2 w-3/4">
