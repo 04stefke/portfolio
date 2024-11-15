@@ -4,6 +4,7 @@ import ecommerceImg from "../../../images/E-Commerce.png";
 import todoImg from "../../../images/ToDoApp.png";
 import weatherImg from "../../../images/WeatherApp.png";
 import Footer from "./Footer/Footer";
+import { Link } from "react-router-dom";
 const Project = () => {
 	return (
 		<div className="flex flex-col gap-10 w-full">
@@ -111,6 +112,9 @@ const Project = () => {
 					</div>
 				</div>
 			</a>
+			<Link to="/projects">
+				<button className="text-lg font-bold hover:text-fontColor">View all Projects</button>
+			</Link>
 			<Footer />
 		</div>
 	);
