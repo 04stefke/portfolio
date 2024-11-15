@@ -1,5 +1,6 @@
 import React from "react";
 import redditImg from "../../../images/RedditApp.png";
+import Footer from "./Footer/Footer";
 const Project = () => {
 	return (
 		<div className="flex flex-col gap-10 w-full">
@@ -45,6 +46,7 @@ const Project = () => {
 					</div>
 				</div>
 			</a>
+			<Footer />
 		</div>
 	);
 };
