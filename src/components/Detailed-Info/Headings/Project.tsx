@@ -8,7 +8,7 @@ const Project = () => {
 	return (
 		<div className="flex flex-col gap-10 w-full">
 			<a href="https://stefans-reddit-app.netlify.app/" target="_blank">
-				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
+				<div className="flex flex-col items-center md:items-start md:flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
 					<img
 						src={redditImg}
 						alt="Reddit Project"
@@ -36,7 +36,7 @@ const Project = () => {
 				</div>
 			</a>
 			<a href="https://stefans-ecommerce-project.netlify.app/" target="_blank">
-				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
+				<div className="flex flex-col items-center md:items-start md:flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
 					<img
 						src={ecommerceImg}
 						alt="E-Commerce Project"
@@ -64,7 +64,7 @@ const Project = () => {
 				</div>
 			</a>
 			<a href="https://stefans-to-do-app.netlify.app/" target="_blank">
-				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
+				<div className="flex flex-col items-center md:items-start md:flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
 					<img
 						src={todoImg}
 						alt="ToDo Project"
@@ -88,7 +88,7 @@ const Project = () => {
 				</div>
 			</a>
 			<a href="https://stefans-weather-app.netlify.app/" target="_blank">
-				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
+				<div className="flex flex-col items-center md:items-start md:flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
 					<img
 						src={weatherImg}
 						alt="Weather App"

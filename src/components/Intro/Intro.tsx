@@ -11,7 +11,7 @@ const Intro = () => {
 	return (
 		<div className="flex flex-col lg:h-screen lg:justify-between lg:py-10 lg:pl-5">
 			<div className="flex flex-col lg:justify-between items-start lg:py-4 lg:px-6 h-3/6">
-				<div className="">
+				<div className="text-center sm:text-start">
 					<h1 className="text-5xl font-bold text-fontColor">
 						Stefan Jovanovic
 					</h1>
