@@ -70,7 +70,7 @@ const Experience = () => {
 					</div>
 				</div>
 			</a>
-			<h2 className="text-lg font-bold text-fontColor cursor-pointer"><a href="https://shorturl.at/2sUGE" target="_blank">View full CV</a></h2>
+			<h2 className="text-lg font-bold text-fontColor cursor-pointer"><a href="https://shorturl.at/MeBZ5" target="_blank">View full CV</a></h2>
 		</div>
 	);
 };
