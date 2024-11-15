@@ -1,8 +1,7 @@
-import React from "react";
 
 const Experience = () => {
 	return (
-		<div className=" flex flex-col gap-10 w-full">
+		<section id="experiences" className=" flex flex-col gap-10 w-full">
 			<a
 				className="lg:hover:bg-hoverBg lg:cursor-pointer px-1 py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full"
 				href="https://find-and-update.company-information.service.gov.uk/company/12344834"
@@ -71,7 +70,7 @@ const Experience = () => {
 				</div>
 			</a>
 			<h2 className="text-lg font-bold hover:text-fontColor cursor-pointer"><a href="https://shorturl.at/MeBZ5" target="_blank">View full CV</a></h2>
-		</div>
+		</section>
 	);
 };
 

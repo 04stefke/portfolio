@@ -1,4 +1,3 @@
-import React from "react";
 import redditImg from "../../../images/RedditApp.png";
 import ecommerceImg from "../../../images/E-Commerce.png";
 import todoImg from "../../../images/ToDoApp.png";
@@ -7,7 +6,7 @@ import Footer from "./Footer/Footer";
 import { Link } from "react-router-dom";
 const Project = () => {
 	return (
-		<div className="flex flex-col gap-10 w-full">
+		<section id="projects" className="flex flex-col gap-10 w-full">
 			<a href="https://stefans-reddit-app.netlify.app/" target="_blank">
 				<div className="flex flex-col items-center md:items-start md:flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
 					<img
@@ -113,10 +112,12 @@ const Project = () => {
 				</div>
 			</a>
 			<Link to="/projects">
-				<button className="text-lg font-bold hover:text-fontColor">View all Projects</button>
+				<button className="text-lg font-bold hover:text-fontColor">
+					View all Projects
+				</button>
 			</Link>
 			<Footer />
-		</div>
+		</section>
 	);
 };
 

@@ -9,8 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Intro = () => {
 	return (
-		<div className="flex flex-col lg:h-screen lg:justify-between lg:py-10 lg:pl-5">
-			<div className="flex flex-col lg:justify-between items-start lg:py-4 lg:px-6 h-3/6">
+		<div className="flex flex-col md:h-screen md:justify-between md:py-10 md:pl-5">
+			<div className="flex flex-col md:justify-between items-start md:py-4 md:px-6 h-3/6">
 				<div className="text-center sm:text-start">
 					<h1 className="text-5xl font-bold text-fontColor">
 						Stefan Jovanovic
@@ -19,11 +19,11 @@ const Intro = () => {
 						Jr Frontend Developer
 					</h3>
 				</div>
-				<div className="hidden lg:flex flex-col gap-3">
-					<p className="uppercase font-bold">ABOUT</p>
-					<p className="uppercase font-bold">Experiences</p>
-					<p className="uppercase font-bold">Projects</p>
-				</div>
+				<ul className="hidden md:flex flex-col gap-3">
+					<li className="uppercase font-bold"><a href="#about">ABOUT</a></li>
+					<li className="uppercase font-bold"><a href="#experiences">Experiences</a></li>
+					<li className="uppercase font-bold"><a href="#projects">Projects</a></li>
+				</ul>
 			</div>
 			<div className="flex gap-5 items-center justify-start text-2xl only:justify-end">
 				<a
