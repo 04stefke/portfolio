@@ -23,30 +23,14 @@ const Project = () => {
 							posts based on the selected subreddit, search whole reddit.
 						</p>
 						<div className="flex flex-wrap items-center gap-2">
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								JavaScript
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								React
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								HTML5
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								CSS3
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								MaterialUi
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								Redux and Redux Toolkit
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								GitHub
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								Netlify
-							</p>
+							<p className="bubbles">JavaScript</p>
+							<p className="bubbles">React</p>
+							<p className="bubbles">HTML5</p>
+							<p className="bubbles">CSS3</p>
+							<p className="bubbles">MaterialUi</p>
+							<p className="bubbles">Redux and Redux Toolkit</p>
+							<p className="bubbles">GitHub</p>
+							<p className="bubbles">Netlify</p>
 						</div>
 					</div>
 				</div>
@@ -69,24 +53,12 @@ const Project = () => {
 							as there are changes in the cart.
 						</p>
 						<div className="flex flex-wrap items-center gap-2">
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								TypeScript
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								React
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								HTML5
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								CSS3
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								GitHub
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								Netlify
-							</p>
+							<p className="bubbles">TypeScript</p>
+							<p className="bubbles">React</p>
+							<p className="bubbles">HTML5</p>
+							<p className="bubbles">CSS3</p>
+							<p className="bubbles">GitHub</p>
+							<p className="bubbles">Netlify</p>
 						</div>
 					</div>
 				</div>
@@ -105,29 +77,17 @@ const Project = () => {
 							them.
 						</p>
 						<div className="flex flex-wrap items-center gap-2">
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								JavaScript
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								React
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								HTML5
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								CSS3
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								GitHub
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								Netlify
-							</p>
+							<p className="bubbles">JavaScript</p>
+							<p className="bubbles">React</p>
+							<p className="bubbles">HTML5</p>
+							<p className="bubbles">CSS3</p>
+							<p className="bubbles">GitHub</p>
+							<p className="bubbles">Netlify</p>
 						</div>
 					</div>
 				</div>
 			</a>
-			<a href="https://stefans-ecommerce-project.netlify.app/" target="_blank">
+			<a href="https://stefans-weather-app.netlify.app/" target="_blank">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
 					<img
 						src={weatherImg}
@@ -142,21 +102,11 @@ const Project = () => {
 							wind speed. Also the sky condition! Is it cloudy or sunny?
 						</p>
 						<div className="flex flex-wrap items-center gap-2">
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								JavaScript
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								HTML5
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								CSS3
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								GitHub
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								Netlify
-							</p>
+							<p className="bubbles">JavaScript</p>
+							<p className="bubbles">HTML5</p>
+							<p className="bubbles">CSS3</p>
+							<p className="bubbles">GitHub</p>
+							<p className="bubbles">Netlify</p>
 						</div>
 					</div>
 				</div>

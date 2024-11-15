@@ -23,16 +23,16 @@ const Experience = () => {
 						conversion rates to determine the most effective options.
 					</p>
 					<div className="flex  items-center gap-5">
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							JavaScript
 						</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							React
 						</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							Html
 						</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							CSS
 						</p>
 					</div>
@@ -55,16 +55,16 @@ const Experience = () => {
 						devices, covering both software and hardware aspects.
 					</p>
 					<div className="flex  items-center gap-5 flex-wrap">
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							Hospitality
 						</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							Housekeeping
 						</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							Bookings
 						</p>
-						<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
+						<p className="bubbles">
 							Troubleshooting
 						</p>
 					</div>
