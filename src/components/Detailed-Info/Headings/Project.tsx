@@ -6,14 +6,16 @@ const Project = () => {
 		<div className="flex flex-col gap-10 w-full">
 			<a href="https://stefans-reddit-app.netlify.app/" target="_blank">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
-					<img src={redditImg} alt="" className="w-24 rounded-xl" />
+					<img src={redditImg} alt="" className="w-24 max-h-24 rounded-xl" />
 					<div className="flex flex-col gap-2">
-						<h2 className="text-xl font-bold text-fontColor">Reddit by Stefan</h2>
+						<h2 className="text-xl font-bold text-fontColor">
+							Reddit by Stefan
+						</h2>
 						<p>
 							Basic Reddit clone, that allows you to see posts, comments. Choose
 							posts based on the selected subreddit, search whole reddit.
 						</p>
-						<div className="flex  items-center gap-5">
+						<div className="flex flex-wrap items-center gap-2">
 							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
 								JavaScript
 							</p>
@@ -44,7 +46,7 @@ const Project = () => {
 			</a>
 			<a href="">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
-					<img src={redditImg} alt="" className="w-24 rounded-xl" />
+					<img src={redditImg} alt="" className="w-24 max-h-24 rounded-xl" />
 					<div className="flex flex-col gap-2">
 						<h2 className="text-xl font-bold text-fontColor">Project Title</h2>
 						<p>
@@ -58,7 +60,7 @@ const Project = () => {
 			</a>
 			<a href="">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
-					<img src={redditImg} alt="" className="w-24 rounded-xl" />
+					<img src={redditImg} alt="" className="w-24 max-h-24 rounded-xl" />
 					<div className="flex flex-col gap-2">
 						<h2 className="text-xl font-bold text-fontColor">Project Title</h2>
 						<p>
