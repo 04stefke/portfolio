@@ -9,7 +9,11 @@ const Project = () => {
 		<div className="flex flex-col gap-10 w-full">
 			<a href="https://stefans-reddit-app.netlify.app/" target="_blank">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
-					<img src={redditImg} alt="Reddit Project" className="w-24 max-h-24 rounded-xl" />
+					<img
+						src={redditImg}
+						alt="Reddit Project"
+						className="w-24 max-h-24 rounded-xl"
+					/>
 					<div className="flex flex-col gap-2">
 						<h2 className="text-xl font-bold text-fontColor">
 							Reddit by Stefan
@@ -49,7 +53,11 @@ const Project = () => {
 			</a>
 			<a href="https://stefans-ecommerce-project.netlify.app/" target="_blank">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
-					<img src={ecommerceImg} alt="E-Commerce Project" className="w-24 max-h-24 rounded-xl" />
+					<img
+						src={ecommerceImg}
+						alt="E-Commerce Project"
+						className="w-24 max-h-24 rounded-xl"
+					/>
 					<div className="flex flex-col gap-2">
 						<h2 className="text-xl font-bold text-fontColor">
 							E-Commerce from Frontend-Mentor
@@ -85,7 +93,11 @@ const Project = () => {
 			</a>
 			<a href="https://stefans-to-do-app.netlify.app/" target="_blank">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
-					<img src={todoImg} alt="ToDo Project" className="w-24 max-h-24 rounded-xl" />
+					<img
+						src={todoImg}
+						alt="ToDo Project"
+						className="w-24 max-h-24 rounded-xl"
+					/>
 					<div className="flex flex-col gap-2">
 						<h2 className="text-xl font-bold text-fontColor">ToDo App</h2>
 						<p>
@@ -117,33 +129,27 @@ const Project = () => {
 			</a>
 			<a href="https://stefans-ecommerce-project.netlify.app/" target="_blank">
 				<div className="flex flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">
-					<img src={weatherImg} alt="" className="w-24 max-h-24 rounded-xl" />
+					<img
+						src={weatherImg}
+						alt="Weather App"
+						className="w-24 max-h-24 rounded-xl"
+					/>
 					<div className="flex flex-col gap-2">
-						<h2 className="text-xl font-bold text-fontColor">Project Title</h2>
+						<h2 className="text-xl font-bold text-fontColor">Weather App</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-							dolores adipisci sed! Praesentium vero voluptatem deserunt
-							pariatur. Accusamus tenetur distinctio vel perspiciatis magnam
-							similique. Eos, voluptas? Inventore ducimus illum officia?
+							Cool looking weather app that allows users to check their weather
+							for the wanted city. It displays the temperature, humidity and
+							wind speed. Also the sky condition! Is it cloudy or sunny?
 						</p>
 						<div className="flex flex-wrap items-center gap-2">
 							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
 								JavaScript
 							</p>
 							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								React
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
 								HTML5
 							</p>
 							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
 								CSS3
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								MaterialUi
-							</p>
-							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
-								Redux and Redux Toolkit
 							</p>
 							<p className="border rounded-full py-1 px-2 text-fontColor text-xs">
 								GitHub
