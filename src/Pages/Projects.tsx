@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faArrowLeft,
-	faArrowUp,
 	faArrowUpRightFromSquare,
 } from "@fortawesome/free-solid-svg-icons";
 
