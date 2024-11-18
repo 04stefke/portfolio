@@ -16,7 +16,7 @@ const Intro = () => {
 		const sections = document.querySelectorAll("section");
 
 		// Intersection Observer Callback
-		const observerCallback = (entries) => {
+		const observerCallback = (entries: IntersectionObserverEntry[]) => {
 			entries.forEach((entry) => {
 				if (entry.isIntersecting) {
 					setActiveSection(entry.target.id); // Update active section
