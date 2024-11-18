@@ -2,7 +2,11 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				sans: ["Montserrat", "ui-sans-serif", "system-ui"], // Override default sans-serif
+			},
+		},
 		colors: {
 			bgPrimary: "#000b58",
 			fontColor: "#fff",

@@ -46,7 +46,7 @@ const Intro = () => {
 		<div className="flex flex-col md:h-screen md:justify-between md:py-10 md:pl-5">
 			<div className="flex flex-col md:justify-between items-start md:py-4 md:px-6 h-3/6">
 				<div className="text-center sm:text-start">
-					<h1 className="text-5xl font-bold text-fontColor">
+					<h1 className="text-4xl font-bold text-fontColor">
 						Stefan Jovanovic
 					</h1>
 					<h3 className="text-2xl font-bold text-lighterFontColor">

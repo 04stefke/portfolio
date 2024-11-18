@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	@font-face {
+		font-family: "Montserrat";
+		src: url(/src/fonts/Montserrat.ttf) format('truetype');
+	}
+	
+}
+
 @layer utilities {
 	/* Chrome, Safari and Opera */
 	.scrollbar-hidden::-webkit-scrollbar {
