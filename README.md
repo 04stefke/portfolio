@@ -1,50 +1,89 @@
-# React + TypeScript + Vite
+# 📄 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! 🎨 This is where I showcase my skills, projects, and journey as a Front-End Developer.
 
-Currently, two official plugins are available:
+## 🌟 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check it out live: [Your Website URL](#)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📚 Table of Contents
 
-- Configure the top-level `parserOptions` property like this:
+- [About](#-about)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Setup and Installation](#-setup-and-installation)
+- [Screenshots](#-screenshots)
+- [License](#-license)
+- [Contact](#-contact)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🖊 About
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+This portfolio is a reflection of my skills, passion, and work as a Front-End Developer. The site is designed to:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Showcase my projects and achievements.
+- Highlight my expertise in Frontend Development.
+- Provide a space for visitors to contact me directly.
+
+---
+
+## ✨ Features
+
+- **Responsive Design**: Optimized for all devices.
+- **Dynamic Content**: Projects and skills dynamically rendered.
+- **Interactive UI**: Smooth animations and intuitive navigation.
+- **Contact Form**: Directly get in touch with me.
+
+---
+
+## 💻 Technologies Used
+
+- **Frontend**: HTML5, CSS3, JavaScript, React.js, Tailwind CSS
+- **Backend**: Node.js
+- **Others**: Git, Netlify
+
+---
+
+## ⚙️ Setup and Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and adapt it!
+
+---
+
+## 📞 Contact
+
+If you have any questions, suggestions, or just want to say hi, feel free to reach out:
+
+- **Email**: [jovanovics399@gmail.com](mailto:jovanovics399@gmail.com)
+- **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/stefan-jovanovic-73081929a/)
+- **X**: [My X](https://x.com/StefanJ54903340)
+
+---
