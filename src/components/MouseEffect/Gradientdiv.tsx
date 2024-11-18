@@ -4,7 +4,7 @@ const GradientPosition = () => {
 	const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
 	useEffect(() => {
-		const updateMousePosition = (ev) => {
+		const updateMousePosition = (ev:MouseEvent) => {
 			setMousePosition({ x: ev.clientX, y: ev.clientY });
 		};
 		window.addEventListener("mousemove", updateMousePosition);
