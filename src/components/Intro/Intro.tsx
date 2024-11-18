@@ -6,8 +6,42 @@ import {
 	faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect, useState } from "react";
 
 const Intro = () => {
+	const [activeSection, setActiveSection] = useState("about");
+
+	useEffect(() => {
+		// Sections to observe
+		const sections = document.querySelectorAll("section");
+
+		// Intersection Observer Callback
+		const observerCallback = (entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					setActiveSection(entry.target.id); // Update active section
+				}
+			});
+		};
+
+		const observerOptions = {
+			root: null, // Observe in the viewport
+			threshold: 0.5, // Trigger when 50% of the section is visible
+		};
+
+		// Create IntersectionObserver
+		const observer = new IntersectionObserver(
+			observerCallback,
+			observerOptions
+		);
+
+		sections.forEach((section) => observer.observe(section));
+
+		return () => {
+			// Cleanup observer on unmount
+			sections.forEach((section) => observer.unobserve(section));
+		};
+	}, []);
 	return (
 		<div className="flex flex-col md:h-screen md:justify-between md:py-10 md:pl-5">
 			<div className="flex flex-col md:justify-between items-start md:py-4 md:px-6 h-3/6">
@@ -20,9 +54,36 @@ const Intro = () => {
 					</h3>
 				</div>
 				<ul className="hidden md:flex flex-col gap-3">
-					<li className="uppercase font-bold"><a href="#about">ABOUT</a></li>
-					<li className="uppercase font-bold"><a href="#experiences">Experiences</a></li>
-					<li className="uppercase font-bold"><a href="#projects">Projects</a></li>
+					<li className="uppercase font-bold">
+						<a
+							href="#about"
+							className={`navHover ${
+								activeSection === "about" ? "navActive" : ""
+							}`}
+						>
+							ABOUT
+						</a>
+					</li>
+					<li className="uppercase font-bold">
+						<a
+							href="#experiences"
+							className={`navHover ${
+								activeSection === "experiences" ? "navActive" : ""
+							}`}
+						>
+							Experiences
+						</a>
+					</li>
+					<li className="uppercase font-bold">
+						<a
+							href="#projects"
+							className={`navHover ${
+								activeSection === "projects" ? "navActive" : ""
+							}`}
+						>
+							Projects
+						</a>
+					</li>
 				</ul>
 			</div>
 			<div className="flex gap-5 items-center justify-start text-2xl only:justify-end">

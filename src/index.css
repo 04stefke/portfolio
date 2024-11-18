@@ -12,10 +12,16 @@
 		scrollbar-width: none; /* Firefox */
 		-ms-overflow-style: none; /* IE and Edge */
 	}
-	
 }
 
 .bubbles {
-	@apply border rounded-full py-1 px-2 text-fontColor text-xs
+	@apply border rounded-full py-1 px-2 text-fontColor text-xs;
 }
 
+.navHover {
+	@apply hover:text-fontColor;
+}
+
+.navActive {
+	@apply text-fontColor;
+}

@@ -1,6 +1,6 @@
 const About = () => {
 	return (
-		<section id="about">
+		<section id="about" >
 			<p className="text-sm">
 				Dedicated 20-year-old engineer passionate about translating designs into
 				dynamic user interfaces. With a robust skill set in

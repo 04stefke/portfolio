@@ -7,9 +7,9 @@ function App() {
 	return (
 		<Gradientdiv className="w-screen h-screen ">
 			<div className=" max-w-screen-lg min-h-screen mx-auto flex flex-col md:flex-row md:items-center px-14 md:px-0 gap-20 md:gap-0">
-				<div className="w-full md:w-1/2">
+				<header className="w-full md:w-1/2">
 					<Intro />
-				</div>
+				</header>
 				<main className="w-full md:overflow-auto md:w-1/2 h-screen scrollbar-hidden ">
 					<Details />
 				</main>
