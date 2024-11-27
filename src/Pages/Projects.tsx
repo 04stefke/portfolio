@@ -31,6 +31,36 @@ const Projects = () => {
 							<td className="py-4 pr-4 align-top text-xs">2024</td>
 							<td className="py-4 pr-4 align-top text-fontColor">
 								<a
+									href="https://multistep-form-challenge.netlify.app/"
+									target="_blank"
+								>
+									Multi-Step-Form Challenge
+								</a>
+							</td>
+							<td className="py-4 pr-4 align-top hidden sm:table-cell">
+								<div className="flex  items-center gap-1 ">
+									<p className="bubbles">Html</p>
+									<p className="bubbles">CSS</p>
+									<p className="bubbles">GitHub</p>
+									<p className="bubbles">Netlify</p>
+								</div>
+							</td>
+							<td className="hidden md:table-cell py-4 pr-4">
+								<a
+									href="https://multistep-form-challenge.netlify.app/"
+									target="_blank"
+									className="hover:text-fontColor"
+								>
+									<FontAwesomeIcon
+										icon={faArrowUpRightFromSquare}
+									></FontAwesomeIcon>
+								</a>
+							</td>
+						</tr>
+						<tr className="border-b">
+							<td className="py-4 pr-4 align-top text-xs">2024</td>
+							<td className="py-4 pr-4 align-top text-fontColor">
+								<a
 									href="https://product-list-with-cart-challenge.netlify.app/"
 									target="_blank"
 								>
