@@ -1,6 +1,6 @@
 const About = () => {
 	return (
-		<section id="about">
+		<section id="about" className="md:mb-10">
 			<p className="text-base">
 				I’m a 20-year-old front-end engineer passionate about creating seamless,
 				dynamic user interfaces that combine elegant design with robust
