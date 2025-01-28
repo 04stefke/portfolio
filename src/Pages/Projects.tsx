@@ -28,7 +28,7 @@ const Projects = () => {
 					</thead>
 					<tbody>
 						{data.projects.map((project) => (
-							<tr className="border-b">
+							<tr className="border-b" key={project.title}>
 								<td className="py-4 pr-4 align-top text-xs">{project.year}</td>
 								<td className="py-4 pr-4 align-top text-fontColor">
 									<a href={project.url} target="_blank">
