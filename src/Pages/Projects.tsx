@@ -5,7 +5,7 @@ import {
 	faArrowLeft,
 	faArrowUpRightFromSquare,
 } from "@fortawesome/free-solid-svg-icons";
-
+import data from "./ProjectsData.json";
 const Projects = () => {
 	return (
 		<Gradientdiv className="w-screen h-screen ">
@@ -27,225 +27,36 @@ const Projects = () => {
 						</tr>
 					</thead>
 					<tbody>
-						<tr className="border-b">
-							<td className="py-4 pr-4 align-top text-xs">2024</td>
-							<td className="py-4 pr-4 align-top text-fontColor">
-								<a
-									href="https://newsletter-form-challenge.netlify.app"
-									target="_blank"
-								>
-									Newsletter Form Challenge
-								</a>
-							</td>
-							<td className="py-4 pr-4 align-top hidden sm:table-cell">
-								<div className="flex  items-center gap-1 ">
-									<p className="bubbles">Html</p>
-									<p className="bubbles">CSS</p>
-									<p className="bubbles">GitHub</p>
-									<p className="bubbles">Netlify</p>
-								</div>
-							</td>
-							<td className="hidden md:table-cell py-4 pr-4">
-								<a
-									href="https://newsletter-form-challenge.netlify.app"
-									target="_blank"
-									className="hover:text-fontColor"
-								>
-									<FontAwesomeIcon
-										icon={faArrowUpRightFromSquare}
-									></FontAwesomeIcon>
-								</a>
-							</td>
-						</tr>
-						<tr className="border-b">
-							<td className="py-4 pr-4 align-top text-xs">2024</td>
-							<td className="py-4 pr-4 align-top text-fontColor">
-								<a
-									href="https://multistep-form-challenge.netlify.app/"
-									target="_blank"
-								>
-									Multi-Step-Form Challenge
-								</a>
-							</td>
-							<td className="py-4 pr-4 align-top hidden sm:table-cell">
-								<div className="flex  items-center gap-1 ">
-									<p className="bubbles">Html</p>
-									<p className="bubbles">CSS</p>
-									<p className="bubbles">GitHub</p>
-									<p className="bubbles">Netlify</p>
-								</div>
-							</td>
-							<td className="hidden md:table-cell py-4 pr-4">
-								<a
-									href="https://multistep-form-challenge.netlify.app/"
-									target="_blank"
-									className="hover:text-fontColor"
-								>
-									<FontAwesomeIcon
-										icon={faArrowUpRightFromSquare}
-									></FontAwesomeIcon>
-								</a>
-							</td>
-						</tr>
-						<tr className="border-b">
-							<td className="py-4 pr-4 align-top text-xs">2024</td>
-							<td className="py-4 pr-4 align-top text-fontColor">
-								<a
-									href="https://product-list-with-cart-challenge.netlify.app/"
-									target="_blank"
-								>
-									Product-List-With-Cart-Challenge
-								</a>
-							</td>
-							<td className="py-4 pr-4 align-top hidden sm:table-cell">
-								<div className="flex  items-center gap-1 ">
-									<p className="bubbles">Html</p>
-									<p className="bubbles">CSS</p>
-									<p className="bubbles">Tailwind</p>
-									<p className="bubbles">React</p>
-									<p className="bubbles">React-Use-Cart</p>
-									<p className="bubbles">GitHub</p>
-									<p className="bubbles">Netlify</p>
-								</div>
-							</td>
-							<td className="hidden md:table-cell py-4 pr-4">
-								<a
-									href="https://product-list-with-cart-challenge.netlify.app/"
-									target="_blank"
-									className="hover:text-fontColor"
-								>
-									<FontAwesomeIcon
-										icon={faArrowUpRightFromSquare}
-									></FontAwesomeIcon>
-								</a>
-							</td>
-						</tr>
-						<tr className="border-b">
-							<td className="py-4 pr-4 align-top text-xs">2024</td>
-							<td className="py-4 pr-4 align-top text-fontColor">
-								<a
-									href="https://bento-grid-challange.netlify.app/"
-									target="_blank"
-								>
-									Bento Grid Challenge
-								</a>
-							</td>
-							<td className="py-4 pr-4 align-top hidden sm:table-cell">
-								<div className="flex  items-center gap-1 ">
-									<p className="bubbles">Html</p>
-									<p className="bubbles">CSS</p>
-									<p className="bubbles">Tailwind</p>
-									<p className="bubbles">GitHub</p>
-									<p className="bubbles">Netlify</p>
-								</div>
-							</td>
-							<td className="hidden md:table-cell py-4 pr-4">
-								<a
-									href="https://bento-grid-challange.netlify.app/"
-									target="_blank"
-									className="hover:text-fontColor"
-								>
-									<FontAwesomeIcon
-										icon={faArrowUpRightFromSquare}
-									></FontAwesomeIcon>
-								</a>
-							</td>
-						</tr>
-						<tr className="border-b">
-							<td className="py-4 pr-4 align-top text-xs">2024</td>
-							<td className="py-4 pr-4 align-top text-fontColor">
-								<a
-									href="https://stefkes-youtube2mp3.netlify.app"
-									target="_blank"
-								>
-									Youtube to mp3
-								</a>
-							</td>
-							<td className="py-4 pr-4 align-top hidden sm:table-cell">
-								<div className="flex  items-center gap-1 ">
-									<p className="bubbles">JavaScript</p>
-									<p className="bubbles">Html</p>
-									<p className="bubbles">CSS</p>
-									<p className="bubbles">GitHub</p>
-									<p className="bubbles">Netlify</p>
-								</div>
-							</td>
-							<td className="hidden md:table-cell py-4 pr-4">
-								<a
-									href="https://stefans-javascript-quiz.netlify.app"
-									target="_blank"
-									className="hover:text-fontColor"
-								>
-									<FontAwesomeIcon
-										icon={faArrowUpRightFromSquare}
-									></FontAwesomeIcon>
-								</a>
-							</td>
-						</tr>
-						<tr className="border-b">
-							<td className="py-4 pr-4 align-top text-xs">2024</td>
-							<td className="py-4 pr-4 align-top text-fontColor">
-								<a
-									href="https://stefans-messanger-app.netlify.app"
-									target="_blank"
-								>
-									Messenger Clone
-								</a>
-							</td>
-							<td className="py-4 pr-4 align-top hidden sm:table-cell">
-								<div className="flex  items-center gap-1 ">
-									<p className="bubbles">JavaScript</p>
-									<p className="bubbles">React</p>
-									<p className="bubbles">Html</p>
-									<p className="bubbles">CSS</p>
-									<p className="bubbles">SASS</p>
-									<p className="bubbles">GitHub</p>
-									<p className="bubbles">Netlify</p>
-								</div>
-							</td>
-							<td className="hidden md:table-cell py-4 pr-4">
-								<a
-									href="https://stefans-javascript-quiz.netlify.app"
-									target="_blank"
-									className="hover:text-fontColor"
-								>
-									<FontAwesomeIcon
-										icon={faArrowUpRightFromSquare}
-									></FontAwesomeIcon>
-								</a>
-							</td>
-						</tr>
-						<tr className="border-b">
-							<td className="py-4 pr-4 align-top text-xs">2024</td>
-							<td className="py-4 pr-4 align-top text-fontColor">
-								<a
-									href="https://stefans-javascript-quiz.netlify.app"
-									target="_blank"
-								>
-									10 Question Quiz
-								</a>
-							</td>
-							<td className="py-4 pr-4 align-top hidden sm:table-cell">
-								<div className="flex  items-center gap-1 ">
-									<p className="bubbles">JavaScript</p>
-									<p className="bubbles">Html</p>
-									<p className="bubbles">CSS</p>
-									<p className="bubbles">GitHub</p>
-									<p className="bubbles">Netlify</p>
-								</div>
-							</td>
-							<td className="hidden md:table-cell py-4 pr-4">
-								<a
-									href="https://stefans-javascript-quiz.netlify.app"
-									target="_blank"
-									className="hover:text-fontColor"
-								>
-									<FontAwesomeIcon
-										icon={faArrowUpRightFromSquare}
-									></FontAwesomeIcon>
-								</a>
-							</td>
-						</tr>
+						{data.projects.map((project) => (
+							<tr className="border-b">
+								<td className="py-4 pr-4 align-top text-xs">{project.year}</td>
+								<td className="py-4 pr-4 align-top text-fontColor">
+									<a href={project.url} target="_blank">
+										{project.title}
+									</a>
+								</td>
+								<td className="py-4 pr-4 align-top hidden sm:table-cell">
+									<div className="flex  items-center gap-1 ">
+										{project.technologies.map((tech, index) => (
+											<p key={index} className="bubbles">
+												{tech}
+											</p>
+										))}
+									</div>
+								</td>
+								<td className="hidden md:table-cell py-4 pr-4">
+									<a
+										href={project.url}
+										target="_blank"
+										className="hover:text-fontColor"
+									>
+										<FontAwesomeIcon
+											icon={faArrowUpRightFromSquare}
+										></FontAwesomeIcon>
+									</a>
+								</td>
+							</tr>
+						))}
 					</tbody>
 				</table>
 			</div>

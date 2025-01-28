@@ -1,0 +1,62 @@
+{
+	"projects": [
+		{
+			"year": 2024,
+			"title": "Newsletter Form Challenge",
+			"url": "https://newsletter-form-challenge.netlify.app",
+			"technologies": ["Html", "CSS", "GitHub", "Netlify"]
+		},
+		{
+			"year": 2024,
+			"title": "Multi-Step-Form Challenge",
+			"url": "https://multistep-form-challenge.netlify.app/",
+			"technologies": ["Html", "CSS", "GitHub", "Netlify"]
+		},
+		{
+			"year": 2024,
+			"title": "Product-List-With-Cart-Challenge",
+			"url": "https://product-list-with-cart-challenge.netlify.app/",
+			"technologies": [
+				"Html",
+				"CSS",
+				"Tailwind",
+				"React",
+				"React-Use-Cart",
+				"GitHub",
+				"Netlify"
+			]
+		},
+		{
+			"year": 2024,
+			"title": "Bento Grid Challenge",
+			"url": "https://bento-grid-challange.netlify.app/",
+			"technologies": ["Html", "CSS", "Tailwind", "GitHub", "Netlify"]
+		},
+		{
+			"year": 2024,
+			"title": "Youtube to mp3",
+			"url": "https://stefkes-youtube2mp3.netlify.app",
+			"technologies": ["JavaScript", "Html", "CSS", "GitHub", "Netlify"]
+		},
+		{
+			"year": 2024,
+			"title": "Messenger Clone",
+			"url": "https://stefans-messanger-app.netlify.app",
+			"technologies": [
+				"JavaScript",
+				"React",
+				"Html",
+				"CSS",
+				"SASS",
+				"GitHub",
+				"Netlify"
+			]
+		},
+		{
+			"year": 2024,
+			"title": "10 Question Quiz",
+			"url": "https://stefans-javascript-quiz.netlify.app",
+			"technologies": ["JavaScript", "Html", "CSS", "GitHub", "Netlify"]
+		}
+	]
+}
