@@ -1,0 +1,69 @@
+{
+	"projects": [
+		{
+			"title": "ToDo App",
+			"url": "https://to-do-challenge-by-stefan.netlify.app/",
+			"image": "./images/Advanced-Todo-App.png",
+			"description": "Advanced To-Do app, users are able to create, update, delete, mark as completed and filter their todos by [active, completed, all] and also delete all completed todos. Todos are securely saved in a database. The app is responsive to all device sizes, it has different hover states. Also toggle with light and dark mode theme!",
+			"technologies": [
+				"JavaScript",
+				"React",
+				"HTML5",
+				"Tailwind",
+				"GitHub",
+				"Netlify"
+			]
+		},
+		{
+			"title": "Space Tourism App",
+			"url": "https://space-tourism-by-stefke.netlify.app/",
+			"image": "./images/SpaceTourismApp.png",
+			"description": "Multi-Page Tourism App, users are able to view each page and toggle between tabs to see new information. View optimal layout for each website's pages depending on the screen size. See hover states for all interactive elements on the page. Mobile screen sizes have dropdown menu.",
+			"technologies": [
+				"JavaScript",
+				"HTML5",
+				"React",
+				"Tailwind",
+				"GitHub",
+				"Netlify"
+			]
+		},
+		{
+			"title": "Calculator by Stefan",
+			"url": "https://stefans-reddit-app.netlify.app/",
+			"image": "./images/calculator.png",
+			"description": "Advanced calculator app, with responsive layout. Hover states for interactive elements. 3 option theme switch saved to local storage.",
+			"technologies": ["JavaScript", "HTML5", "Tailwind", "GitHub", "Netlify"]
+		},
+		{
+			"title": "Reddit by Stefan",
+			"url": "https://stefans-reddit-app.netlify.app/",
+			"image": "./images/RedditApp.png",
+			"description": "Basic Reddit clone, that allows you to see posts, comments. Choose posts based on the selected subreddit, search whole reddit.",
+			"technologies": [
+				"JavaScript",
+				"React",
+				"HTML5",
+				"CSS3",
+				"MaterialUi",
+				"Redux and Redux Toolkit",
+				"GitHub",
+				"Netlify"
+			]
+		},
+		{
+			"title": "E-Commerce from Frontend-Mentor",
+			"url": "https://stefans-ecommerce-project.netlify.app/",
+			"image": "./images/E-Commerce.png",
+			"description": "Simple E-Commerce site from FrontEnd Mentor. The user is able to add, remove or edit the product in the basket. Lighthouse for the products images, responsive for all devices. Price is updated when as there are changes in the cart.",
+			"technologies": [
+				"TypeScript",
+				"React",
+				"HTML5",
+				"CSS3",
+				"GitHub",
+				"Netlify"
+			]
+		}
+	]
+}
