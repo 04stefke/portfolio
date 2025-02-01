@@ -30,7 +30,7 @@
 		},
 		{
 			"title": "Calculator by Stefan",
-			"url": "https://stefans-reddit-app.netlify.app/",
+			"url": "https://stefans-calculator-challenge.netlify.app/",
 			"image": "./images/calculator.png",
 			"description": "Advanced calculator app, with responsive layout. Hover states for interactive elements. 3 option theme switch saved to local storage.",
 			"technologies": ["JavaScript", "HTML5", "Tailwind", "GitHub", "Netlify"]
