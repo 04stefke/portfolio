@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Project = () => {
 	return (
 		<section id="projects" className="flex flex-col gap-10 w-full">
+			<h1 className="text-2xl font-bold text-fontColor">Projects</h1>
 			{data.projects.map((project) => (
 				<a href={project.url} target="_blank" key={project.title}>
 					<div className="flex flex-col items-center md:items-start md:flex-row gap-10 rounded hover:bg-hoverBg py-3 px-2">

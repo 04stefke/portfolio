@@ -1,6 +1,7 @@
 const Experience = () => {
 	return (
 		<section id="experiences" className=" flex flex-col gap-10 w-full">
+			<h1 className="text-2xl font-bold text-fontColor">Experience</h1>
 			<a
 				className="lg:hover:bg-hoverBg px-1 lg:cursor-pointer py-2 rounded-lg flex flex-col justify-between sm:flex-row sm:items-center w-full"
 				href="https://www.montiesbnb.co.uk/"
