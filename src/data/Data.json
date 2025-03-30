@@ -29,11 +29,18 @@
 			]
 		},
 		{
-			"title": "Calculator by Stefan",
-			"url": "https://stefans-calculator-challenge.netlify.app/",
-			"image": "./images/calculator.png",
-			"description": "Advanced calculator app, with responsive layout. Hover states for interactive elements. 3 option theme switch saved to local storage.",
-			"technologies": ["JavaScript", "HTML5", "Tailwind", "GitHub", "Netlify"]
+			"title": "Easybanking Page by Stefan",
+			"url": "https://stefkes-easybank-project.netlify.app/",
+			"image": "./images/EasybankingScreenshot.png",
+			"description": "Easybanking application, with semantic HTML layout. Different hover effects, modern styling and responsive for all devices. ",
+			"technologies": [
+				"JavaScript",
+				"HTML5",
+				"Tailwind",
+				"CSS3",
+				"GitHub",
+				"Netlify"
+			]
 		},
 		{
 			"title": "Reddit by Stefan",
