@@ -1,6 +1,18 @@
 {
 	"projects": [
 		{
+			"year": 2025,
+			"title": "IP Address Tracker",
+			"url": "https://stefkes-ipaddress-tracker.netlify.app",
+			"technologies": ["Html", "CSS", "Tailwind", "GitHub", "Netlify"]
+		},
+		{
+			"year": 2024,
+			"title": "Advanced Calculator",
+			"url": "https://stefans-calculator-challenge.netlify.app/",
+			"technologies": ["Html", "CSS", "Tailwind", "GitHub", "Netlify"]
+		},
+		{
 			"year": 2024,
 			"title": "Newsletter Form Challenge",
 			"url": "https://newsletter-form-challenge.netlify.app",
